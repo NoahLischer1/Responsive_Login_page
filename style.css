@@ -1,0 +1,94 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+
+  /* Aufgabe 1 */
+  display: flex;
+  flex-direction: column;
+
+  /* Aufgabe 4 */
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #dbeafe, #eff6ff);
+}
+
+.header,
+.footer {
+  height: 50px;
+  color: #ffffff;
+  background-color: #2487c6;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.content {
+  /* Aufgabe 1 */
+  flex-grow: 1;
+
+  /* Aufgabe 2 + 4 */
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 700px;
+}
+
+.login-box {
+  width: 250px;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  border: 2px solid #93c5fd;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.login-box h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #1e3a8a;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-box input {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.login-box button {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #2487c6;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background-color: #1b6a9c;
+  transform: scale(1.05);
+}
+
+.text-box {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.text-box p {
+  margin: 0;
+  line-height: 1.6;
+  color: #222;
+}
